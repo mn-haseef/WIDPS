@@ -25,28 +25,30 @@ It is well tested on Parrot Security OS and Kali linux 2018,2019,2020 and other 
 [+] Wireless card or dongle can be in Monitor mode
 [+] Live boot using USB or Dual boot for kali linux
 
+## INSTALLATION
 
-## TESTED HARDWARE
+```bash
+sudo apt install python-crypto git
+```
 
-### Fully Compatible  
-[+] TP-Link TL-WN321G (G mode) [Fully compatible]  
-[+] PCi GW-US54Mini (G mode) [Fully compatible]  
+```bash
+git clone 
 
-[+] Intel  Centrino Ultimate-N 6300 (N mode) [Fully compatible]  
-[+] Intel PRO/Wireless 5100 AGN (N mode) [Fully compatible]  
-[+] TP-Link TL-WN821N (N mode) [Fully compatible]  
+cd WIDPS
 
-[+] TP-Link Archer T4UHP AC1300 (AC mode) [Fully compatible]  
+sudo python3 widps.py -h
 
-### Partially Compatible  
-[!] TP-Link TL-WN822N (N mode) [Partially compatible]  
-[!] TP-Link Archer T9UH AC1900 (AC mode) [Partially compatible]  
+sudo python3 widps.py -i wlan0
+```
 
-### Not Tested  
-[?] ALFA AWUS1900 (AC mode) (Not tested)  
-[?] Intel Wireless 3160 (AC mode) (Not tested but reported not working)  
-[?] ALFA AWUS036ACH (AC mode) (Not tested but reported working)  
+Follow the instruction on screen to install the required files.  It will then run the program directly.
 
-### Not Compatible  
-[-] D-Link DWA-131 (G mode) [Not compatible]  
-[-] ALFA AWUS036NHR (N mode) [Not compatible] 
+Please leave it scanning for several minutes (warm up) before continue the operation.
+
+You can run it at ```~/widps/``` as ```root``` and all the captured files are at ```/root/.WIDPSWorks/Saved/``` directory.
+
+On every update, please copy the new script(s) to ```/root/.WIDPSWorks/WIDPS/``` to make sure the script is working properly.
+
+```bash
+sudo cp ~/widps/*.py /root/.WIDPSWorks/WIDPS/
+```
