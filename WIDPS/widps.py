@@ -9172,11 +9172,11 @@ def CheckRequiredFiles():
         exit_gracefully(1)
     if IsFileDirExist(builtins.MACOUI)!="F":
         printc ("!!!","MAC OUI Database (Optional) not found !","")
-        printc ("  ",fcolor.SGreen + "Database can be downloaded at " + fcolor.SBlue + "https://raw.githubusercontent.com/SYWorks/Database/master/mac-oui.db","")
+        printc ("  ",fcolor.SGreen + "Database can be downloaded at " + fcolor.SBlue + "https://github.com/mn-haseef/WIDPS/blob/3fee80a116bf80e1ef4349f754593876ee4c54c9/mac-oui.db","")
         printc ("  ",fcolor.SGreen + "Copy the download file " + fcolor.BGreen + "mac-oui.db" + fcolor.SGreen +" and copy it to " + fcolor.BRed + dbdir + "\n\n","")
         usr_resp=AskQuestion(fcolor.BGreen + "Or do you prefer to download it now ?" + fcolor.BGreen,"Y/n","U","Y","1")
         if usr_resp=="Y":
-            DownloadFile("https://raw.githubusercontent.com/SYWorks/Database/master/mac-oui.db ",dbdir + "mac-oui.db","1")
+            DownloadFile("https://github.com/mn-haseef/WIDPS/blob/3fee80a116bf80e1ef4349f754593876ee4c54c9/mac-oui.db",dbdir + "mac-oui.db","1")
         print("")
         printc ("x","Press any key to continue...","")
 
