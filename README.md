@@ -50,5 +50,5 @@ You can run it at ```~/widps/``` as ```root``` and all the captured files are at
 On every update, please copy the new script(s) to ```/root/.WIDPSWorks/WIDPS/``` to make sure the script is working properly.
 
 ```bash
-sudo cp ~/widps/*.py /root/.WIDPSWorks/WIDPS/
+sudo cp ~/WIDPS/*.py /root/.WIDPSWorks/WIDPS/
 ```
