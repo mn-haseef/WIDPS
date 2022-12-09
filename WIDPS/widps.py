@@ -26,7 +26,7 @@ appver="1.0"
 apptitle="WIDPS"
 appDesc="- The Wireless Intrusion Detection & Prevention System"
 appcreated="16 October 2022"
-appupdated=""
+appupdated="7 December 2022"
 appmodified="" 
 appnote="Written By Haseef Ahmed and Brahanawardhan, " + appcreated + ", Updated on " + appupdated
 
@@ -188,7 +188,7 @@ def AboutApplication():
     print(fcolor.BGreen + "Written by Haseef Ahmed and Brahanawardhan - https://github.io") #add website of the tool
 
     print("");print("")
-    printc ("x",fcolor.BRed + "Press a key to continue...","")
+    printc ("x",fcolor.BRed + "Press a Enter key to continue...","")
     LineBreak()
 
 def LineBreak():
@@ -7459,10 +7459,10 @@ def OptOutputDisplay(CMD):
             builtins.NETWORK_VIEW="5"
         if usr_resp=="C" or usr_resp=="6":
             DisplayNetworkChart()
-            printc ("x",fcolor.BBlue + "Press a key to continue...","")
+            printc ("x",fcolor.BBlue + "Press a Enter key to continue...","")
         if usr_resp=="D" or usr_resp=="+":
             DisplayMoreClients()
-            printc ("x",fcolor.BBlue + "Press a key to continue...","")
+            printc ("x",fcolor.BBlue + "Press a Enter key to continue...","")
         if usr_resp=="7" or usr_resp=="N":
             if builtins.SHOW_CONNECTION_ALERT=="Yes":
                 builtins.SHOW_CONNECTION_ALERT="No"
