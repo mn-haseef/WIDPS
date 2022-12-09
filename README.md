@@ -45,7 +45,7 @@ Follow the instruction on screen to install the required files.  It will then ru
 
 Please leave it scanning for several minutes (warm up) before continue the operation.
 
-You can run it at ```~/widps/``` as ```root``` and all the captured files are at ```/root/.WIDPSWorks/Saved/``` directory.
+You can run it at ```~/WIDPS/``` as ```root``` and all the captured files are at ```/root/.WIDPSWorks/Saved/``` directory.
 
 On every update, please copy the new script(s) to ```/root/.WIDPSWorks/WIDPS/``` to make sure the script is working properly.
 
