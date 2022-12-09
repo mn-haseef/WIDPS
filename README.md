@@ -32,7 +32,7 @@ sudo apt install python-crypto git
 ```
 
 ```bash
-git clone 
+git clone https://github.com/mn-haseef/WIDPS.git
 
 cd WIDPS
 
